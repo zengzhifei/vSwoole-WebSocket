@@ -48,9 +48,9 @@ return [
         //PID
         'pid_file'        => VSWOOLE_DATA_PID_PATH . VSWOOLE_WEBSOCKET_SERVER . '_Master' . VSWOOLE_PID_EXT,
         //SSL Crt
-        'ssl_cert_file'   => '/opt/nginx/cert/server.vswoole.com/1536837322186.crt',
+        'ssl_cert_file'   => '/home/zengzhifei/local/nginx/conf/cert/1268328_server.vswoole.com.pem',
         //SSL Key
-        'ssl_key_file'    => '/opt/nginx/cert/server.vswoole.com/1536837322186.key',
+        'ssl_key_file'    => '/home/zengzhifei/local/nginx/conf/cert/1268328_server.vswoole.com.key',
     ],
     //管理客户端连接配置
     'client_connect' => [

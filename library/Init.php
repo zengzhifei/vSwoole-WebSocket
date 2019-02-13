@@ -172,55 +172,55 @@ class Init
     {
         //应用根目录
         if (!is_dir(VSWOOLE_APP_PATH)) {
-            mkdir(VSWOOLE_APP_PATH, 755, true);
+            mkdir(VSWOOLE_APP_PATH, 775, true);
         }
         //应用服务端目录
         if (!is_dir(VSWOOLE_APP_SERVER_PATH)) {
-            mkdir(VSWOOLE_APP_SERVER_PATH, 755, true);
+            mkdir(VSWOOLE_APP_SERVER_PATH, 775, true);
         }
         //应用客户端目录
         if (!is_dir(VSWOOLE_APP_CLIENT_PATH)) {
-            mkdir(VSWOOLE_APP_CLIENT_PATH, 755, true);
+            mkdir(VSWOOLE_APP_CLIENT_PATH, 775, true);
         }
         //框架配置目录
         if (!is_dir(VSWOOLE_CONFIG_PATH)) {
-            mkdir(VSWOOLE_CONFIG_PATH, 755, true);
+            mkdir(VSWOOLE_CONFIG_PATH, 775, true);
         }
         //服务核心目录
         if (!is_dir(VSWOOLE_CORE_PATH)) {
-            mkdir(VSWOOLE_CORE_PATH, 755, true);
+            mkdir(VSWOOLE_CORE_PATH, 775, true);
         }
         //服务核心客户端目录
         if (!is_dir(VSWOOLE_CORE_CLIENT_PATH)) {
-            mkdir(VSWOOLE_CORE_CLIENT_PATH, 755, true);
+            mkdir(VSWOOLE_CORE_CLIENT_PATH, 775, true);
         }
         //服务核心服务端目录
         if (!is_dir(VSWOOLE_CORE_SERVER_PATH)) {
-            mkdir(VSWOOLE_CORE_SERVER_PATH, 755, true);
+            mkdir(VSWOOLE_CORE_SERVER_PATH, 775, true);
         }
         //框架数据根目录
         if (!is_dir(VSWOOLE_DATA_PATH)) {
-            mkdir(VSWOOLE_DATA_PATH, 755, true);
+            mkdir(VSWOOLE_DATA_PATH, 775, true);
         }
         //框架数据服务进程目录
         if (!is_dir(VSWOOLE_DATA_PID_PATH)) {
-            mkdir(VSWOOLE_DATA_PID_PATH, 755, true);
+            mkdir(VSWOOLE_DATA_PID_PATH, 775, true);
         }
         //框架数据服务进程目录
         if (!is_dir(VSWOOLE_DATA_CACHE_PATH)) {
-            mkdir(VSWOOLE_DATA_CACHE_PATH, 755, true);
+            mkdir(VSWOOLE_DATA_CACHE_PATH, 775, true);
         }
         //日志根目录
         if (!is_dir(VSWOOLE_LOG_PATH)) {
-            mkdir(VSWOOLE_LOG_PATH, 755, true);
+            mkdir(VSWOOLE_LOG_PATH, 775, true);
         }
         //日志服务端目录
         if (!is_dir(VSWOOLE_LOG_SERVER_PATH)) {
-            mkdir(VSWOOLE_LOG_SERVER_PATH, 755, true);
+            mkdir(VSWOOLE_LOG_SERVER_PATH, 775, true);
         }
         //日志客户端目录
         if (!is_dir(VSWOOLE_LOG_CLIENT_PATH)) {
-            mkdir(VSWOOLE_LOG_CLIENT_PATH, 755, true);
+            mkdir(VSWOOLE_LOG_CLIENT_PATH, 775, true);
         }
     }
 
