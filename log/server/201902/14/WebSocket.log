@@ -1,0 +1,32 @@
+[2019-02-14 10:48:35] 
+vSwoole\library\common\exception\ErrorException: Uncaught RedisException: AUTH failed while reconnecting in /home/zengzhifei/work/code/vSwoole-WebSocket/library/common/cache/Redis.php:157
+Stack trace:
+#0 /home/zengzhifei/work/code/vSwoole-WebSocket/library/common/cache/Redis.php(157): Redis->srem('VSwoole-WebSock...', '172.17.31.159')
+#1 /home/zengzhifei/work/code/vSwoole-WebSocket/application/server/WebSocket.php(191): vSwoole\library\common\cache\Redis->__call('sRem', Array)
+#2 [internal function]: vSwoole\application\server\WebSocket->onShutdown(Object(Swoole\WebSocket\Server))
+#3 /home/zengzhifei/work/code/vSwoole-WebSocket/library/server/Server.php(164): Swoole\Http\Server->start()
+#4 /home/zengzhifei/work/code/vSwoole-WebSocket/core/server/WebSocketServer.php(32): vSwoole\library\server\Server->__construct(Array, Array)
+#5 /home/zengzhifei/work/code/vSwoole-WebSocket/application/server/WebSocket.php(55): vSwoole\core\server\WebSocketServer->__construct(Array, Array)
+#6 /home/zengzhifei/work/code/vSwoole-WebSocket/library/Init.php(404): vSwoole\applica
+In /home/zengzhifei/work/code/vSwoole-WebSocket/library/common/cache/Redis.php: 157
+Exception Code: E_ERROR[1]
+Exception Trace: 
+#0 [internal function]: vSwoole\library\common\exception\Exception::swooleShutdown()
+#1 {main}
+
+[2019-02-14 10:49:13] 
+vSwoole\library\common\exception\ErrorException: Uncaught RedisException: NOAUTH Authentication required. in /home/zengzhifei/work/code/vSwoole-WebSocket/library/common/cache/Redis.php:157
+Stack trace:
+#0 /home/zengzhifei/work/code/vSwoole-WebSocket/library/common/cache/Redis.php(157): Redis->sAdd('VSwoole-WebSock...', '172.17.31.159')
+#1 /home/zengzhifei/work/code/vSwoole-WebSocket/application/server/WebSocket.php(69): vSwoole\library\common\cache\Redis->__call('sAdd', Array)
+#2 [internal function]: vSwoole\application\server\WebSocket->onStart(Object(Swoole\WebSocket\Server))
+#3 /home/zengzhifei/work/code/vSwoole-WebSocket/library/server/Server.php(164): Swoole\Http\Server->start()
+#4 /home/zengzhifei/work/code/vSwoole-WebSocket/core/server/WebSocketServer.php(32): vSwoole\library\server\Server->__construct(Array, Array)
+#5 /home/zengzhifei/work/code/vSwoole-WebSocket/application/server/WebSocket.php(55): vSwoole\core\server\WebSocketServer->__construct(Array, Array)
+#6 /home/zengzhifei/work/code/vSwoole-WebSocket/library/Init.php(404): vSwoole\applicatio
+In /home/zengzhifei/work/code/vSwoole-WebSocket/library/common/cache/Redis.php: 157
+Exception Code: E_ERROR[1]
+Exception Trace: 
+#0 [internal function]: vSwoole\library\common\exception\Exception::swooleShutdown()
+#1 {main}
+
